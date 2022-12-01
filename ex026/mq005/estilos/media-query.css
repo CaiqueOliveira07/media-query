@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* typical device breakpoints 2022 
+
+celular: 360 até 720.
+iPhone X: 375 x 812.
+Pixel 2: 411 x 731.
+Tablet: 768 x 1024.
+Laptop: 1366 x 768.
+High-res laptop or desktop: 1920 x 1080.
+*/
+
+
+
+@media screen and (min-width:768px) {
+    span#menu{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+        
+    }
+    main{
+        width: 768px;
+    }
+}
+
+
